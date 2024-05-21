@@ -1,0 +1,5 @@
+.boxRed {
+    border-style: solid;
+    border-color: red;
+    box-shadow: 0 4px 8px rgba(213, 55, 55, 0.1); /* Adjust the values as needed */
+}

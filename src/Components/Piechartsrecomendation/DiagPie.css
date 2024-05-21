@@ -1,0 +1,15 @@
+.pieCard {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 24vw;
+    margin-top: 5px;
+    padding-top: 30px;
+    margin-bottom: 6px;
+}
+
+.pieChartContainer {
+    height: 218px;
+    margin-top: 10px;
+}

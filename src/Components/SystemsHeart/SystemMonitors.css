@@ -1,0 +1,39 @@
+.Array {
+    text-align: center;
+    /* padding-top: 54px; */
+}
+  .Array > * {
+    /* margin: 0 auto; */
+  }
+
+.greenHeart{
+    font-size: 52px;
+    color:green;
+}
+.redHeart{
+    font-size: 52px;
+    color:red;
+}
+@keyframes greenHeart {
+    0%{
+        transform: scale(1.15);
+    }
+}
+@keyframes redHeart {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.greenHeart {
+    animation: greenHeart 1.5s infinite alternate;
+}
+
+.redHeart {
+    animation: redHeart 0.5s infinite alternate;
+}
